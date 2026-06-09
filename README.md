@@ -1,15 +1,15 @@
-# Contribution [#]: [Issue Title]
+# Contribution 1: Podcast artwork is displayed instead of episode artwork in episode details (Pocket Casts iOS #3897)
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** 1
+**Student:** Jonathan Toussaint 
+**Issue:** [[GitHub issue link]](https://github.com/Automattic/pocket-casts-ios/issues/3897)  
+**Status:** Phase 1 Complete
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I have previous experience in iOS engineering and want to deepen my iOS skills in a production codebase. I previously contributed one PR to the Pocket Casts iOS repo ([#3526](https://github.com/Automattic/pocket-casts-ios/pull/3526)) several months ago, and want to explore the codebase more deeply to understand the architecture and how it all works. Personally, I use Pocket Casts every day (most days for at least an hour) and this is a bug I've reproduced in my day-to-day life as a user of the app.
 
 ---
 
