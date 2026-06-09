@@ -51,7 +51,11 @@ No challenges - I had gone through the setup steps previously when I first contr
 ### Reproduction Evidence
 
 - **Commit showing reproduction:** [Preliminary change (see screenshot before vs. after)](https://github.com/Automattic/pocket-casts-ios/commit/d8392c0500ac3966260d9f610ab38e016093f7e3)
-- **Screenshots/logs:** [If applicable]
+- **Screenshots/logs:** 
+Before change:
+<img src="https://github.com/jon-tous/ai301-contribution-template/blob/main/screenshots/repro-before.png" width=300>
+After change:
+<img src="https://github.com/jon-tous/ai301-contribution-template/blob/main/screenshots/repro-after.png" width=300>
 - **My findings:** The episode detail view's `performUpdateDisplayedData()` method calls `podcastImage.setPodcast(uuid:size:)`, which always loads artwork by podcast UUID. It never checks whether episode-specific artwork is available. Meanwhile, the player and other parts of the app use `setBaseEpisode(episode:size:)` or `imageForEpisode(_:size:)`, which route through a code path that respects the "use episode artwork" setting.
 
 ---
